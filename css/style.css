@@ -37,7 +37,8 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999
+    color: #999;
+    overflow-x: hidden;
 }
 
 .no-padding {
@@ -426,6 +427,7 @@ h5 {
     display: table;
     height: 100vh;
     width: 100%;
+
 }
 
 .box-intro .table-cell {
@@ -433,10 +435,14 @@ h5 {
     vertical-align: middle;
 }
 
+.box-intro .table-cell img{position: relative;width: 1920px; height: 1080px;}
+.box-intro .table-cell p{font-size:10rem; position: absolute; top:50%; left: 50%; transform: translateX(-50%) translateY(-80%);
+color:#000;font-weight: bold;}
+
 .box-intro em {
     font-style: normal;
-    text-transform: uppercase
-}
+    text-transform: uppercase;
+   }
 
 b i:last-child {
     color: #ffbf00 !important;
@@ -446,9 +452,11 @@ b i:last-child {
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #999;
-    line-height: 1.7
+    line-height: 1.7;
+    padding-bottom: 1.5%;
 }
 
+.container-fluid {padding:0;}
 
 /* mouse effect */
 
@@ -769,7 +777,7 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #ffbf00;
+    background-color: #f0cc2d;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
