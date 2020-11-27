@@ -435,9 +435,17 @@ h5 {
     vertical-align: middle;
 }
 
-.box-intro .table-cell img{position: relative;width: 1920px; height: 1080px;}
+.box-intro .table-cell .bg{position: relative;width: 1920px; height: 1080px;}
 .box-intro .table-cell p{font-size:10rem; position: absolute; top:50%; left: 50%; transform: translateX(-50%) translateY(-80%);
-color:#000;font-weight: bold;}
+color:#000;font-weight: bold; line-height:100px;}
+.box-intro .table-cell p span{font-size:2rem;font-weight: normal;}
+
+
+.box-intro .table-cell .ttt{ position: absolute; top:50%; left: 50%; transform: translateX(-50%) translateY(-80%);}
+
+.box-intro .table-cell .ttt h5{color:#575757;}
+
+
 
 .box-intro em {
     font-style: normal;
@@ -549,8 +557,9 @@ b i:last-child {
     display: inline-block;
     position: absolute;
     white-space: nowrap;
-    left: 0;
+    left: 50%;
     top: 0;
+    transform: translateX(-50%);
 }
 
 .box-words-wrapper b.is-visible {
@@ -969,6 +978,8 @@ footer img {
 .service-box h3 {
     margin-top: 0;
 }
+
+.col-md-6 h5 {border-top:1px solid #ddd;padding-top:15px;}
 
 
 /* contact page
