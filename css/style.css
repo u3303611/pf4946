@@ -1195,4 +1195,6 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
+    
+    .logo_title li a{font-size:0.5rem;}
 }
